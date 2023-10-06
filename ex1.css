@@ -1,0 +1,48 @@
+html { 
+  background: url(bg.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  background-color: transparent;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+  color: rgba(255, 205, 75, 0.85);
+}
+
+hr {
+  border-color: rgb(255, 75, 145);
+  border-width: 4px;
+  border-radius: 10px;
+/*  max-width: 25rem;*/
+  opacity: 0.85;
+  margin: 2rem 13rem;
+}
+
+button {
+  font-size: 1rem;
+  background-color: rgb(255, 75, 145);
+  border-color: rgb(8, 2, 163);
+  border-radius: 300px;
+  transition: all 1s;
+}
+
+button:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.buffer {
+  height: 4rem;
+}
